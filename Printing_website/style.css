@@ -1,0 +1,564 @@
+.body
+{
+    font-size: 25px;
+    color: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header
+{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #05022d;
+    padding: 13px 0px;
+}
+
+.header-top
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.nav-link
+{
+    color: #fff;
+    margin-right: 12px;
+}
+
+.nav-link:nth-child(4)
+{
+    margin-right: 50px;
+}
+
+.header-top-phone a
+{
+    color: #fff;
+    margin-right: 50px;
+}
+
+.header-top-logo
+{
+    margin-right: 50px;
+}
+
+.header-top-social-link
+{
+    margin-right: 20px;
+}
+
+.main
+{
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(images/background.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-title
+{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 230px;
+    padding-left: 435px;
+}
+
+.main-subtitle 
+{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 435px;
+    white-space: pre-line;
+}
+
+.wait
+{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.wait-title
+{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.wait-content
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.wait-content p
+{
+    padding-bottom: 25px;
+}
+
+.wait-image img
+{
+    height: 350px;
+    padding-right: 80px;
+}
+
+.wait-text p
+{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.wait-text img
+{
+    height: 20px;
+    padding-right: 60px;
+}
+
+.cooperation
+{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cooperation-title 
+{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 175px;
+}
+
+.cooperation-content 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px; 
+    padding: 0 500px; 
+}
+
+.cooperation-item 
+{
+    overflow-wrap: break-word;
+    width: calc(50% - 20px);
+
+    display: flex;
+    margin-bottom: 30px; 
+}
+
+.cooperation-item img 
+{
+    height: 48px;
+    margin-right: 20px;
+}
+
+.cooperation-item p 
+{
+    font-size: 18px;
+    font-weight: 400;
+    flex: 1; 
+    margin: 0; 
+}
+
+
+.grow
+{
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(images/back-1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 133px 0px;
+    margin-top: 150px;
+}
+
+.grow-item
+{
+    background-color: rgba(16, 10, 51, 0.8);
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 60px 80px;
+}
+
+.grow-item h1
+{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grow-item p
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.uslugi
+{
+    padding: 160px 100px 116px 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.uslugi h1
+{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.uslugi-content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.uslugi-item
+{
+    background-color: rgba(183, 152, 224, 0.51);
+    border-radius: 8px;
+    box-shadow: 4px 2px 10px 0px rgba(183, 152, 224, 0.5);
+    width: 20%;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.howto 
+{
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 100px;
+}
+
+.howto h1 
+{
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 150px;
+    font-size: 30px;
+}
+
+.howto-content {
+    display: flex;
+    justify-content: center;
+}
+
+.howto-line-keeper {
+    display: flex;
+    justify-content: center;
+}
+
+.howto-line-keeper__text {
+    font-size: 16px;
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+
+.howto-line {
+    position: relative;
+}
+
+.howto-line::before {
+    position: absolute;
+    content: "";
+    background-color: #95E1E1;
+    width: 11px;
+    height: 100%;
+
+    left: 17px;
+}
+
+.howto-num {
+    position: relative;
+}
+
+.howto-num div {
+    background-color: #95E1E1;
+    padding: 11px 18px;
+    border-radius: 60px;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+}
+
+.premium
+{
+    padding: 200px 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.premium-inner
+{
+    background-color: #fcfafe;
+    box-shadow: 0px 10px 20px 10px #B798E080;
+    padding: 80px 30px;
+    width: 50%;
+    margin: auto;
+} 
+
+.premium-inner h1
+{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.premium-content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.premium-content div
+{
+    width: 50%;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.premium-content div img
+{
+    padding-bottom: 20px;
+}
+
+.footer 
+{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #040036;
+    padding: 50px 50px; 
+}
+
+
+.footer-content 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content h1
+{
+    font-weight: 500;
+}
+
+.footer-content h2
+{
+    margin-bottom: 10px;
+}
+
+.footer-content div span 
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer-content div span h1 
+{
+    font-size: 21px;
+    color: #fff;
+}
+
+.footer-content div span img 
+{
+    margin-right: 13px;
+}
+
+.footer-content div p 
+{
+    font-size: 16px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.footer-content div h2 
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-content div a 
+{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+    display: block;
+}
+
+@media (max-width: 700px)
+{
+    .container 
+    {
+        max-width: 100%;
+        overflow-x: hidden; 
+    }
+
+    .header-top-logo 
+    {
+        margin-left: 20px;
+    }
+
+    .main-title
+    {
+        padding-top: 200px;
+        padding-left: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main-subtitle
+    {
+        padding-left: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .wait-content 
+    {
+        display: block;
+    }
+
+    .wait-image img 
+    {
+        height: 150px;
+    }
+
+    .wait-image 
+    {
+        text-align: center;
+        padding-left: 80px;
+        padding-bottom: 50px;
+    }
+
+    .wait-text 
+    {
+        text-align: center;
+    }
+
+    .wait-text img
+    {
+        display: none;
+    }
+
+    .wait-text p 
+    {
+        display: block;
+    }
+
+    .cooperation-content
+    {
+        padding: 0;
+        display: block;
+    }
+
+    .cooperation-item
+    {
+        width: calc(100% - 20px);
+    }
+
+    .grow-item 
+    {
+        padding: 10px 10px;
+    }
+
+    .grow-item h1 
+    {
+        font-size: 20px;
+    }
+
+    .uslugi-content 
+    {
+        display: block;
+    }
+
+    .uslugi-item 
+    {
+        width: 80%;
+    }
+
+    .howto h1 {
+        padding-bottom: 110px;
+ 
+    }
+
+    .howto-content {
+        display: block; 
+    }
+
+    .iphone
+    {
+        margin-left: 35px;
+        margin-bottom: 50px;
+    }
+
+    .howto-line-keeper__text 
+    {
+        margin-left: 20px;
+    }
+
+    .howto-num div 
+    {
+        position: inherit;
+    }
+
+    .premium 
+    {
+        padding: 100px 0px;
+    }
+
+    .premium-inner h1 
+    {
+        font-size: 20px;
+    }
+
+    .premium-content div 
+    {
+        width: auto;
+    }
+
+    .premium-inner {
+        box-shadow: inset 1px 0px 10px 10px #B798E080;
+    }
+
+    .footer-content 
+    {
+        display: block;
+    }
+
+    .footer-content div p,
+    .footer-content div h2,
+    .footer-content div a
+    {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .imgfoot
+    {
+       margin-left: 50px;
+       margin-top: 25px;
+    }
+}
